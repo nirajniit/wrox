@@ -1,10 +1,8 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+﻿<!DOCTYPE html>
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title> SMB - Worxperties </title>
+<title>Untitled 1</title>
 
 <style>
 *{
@@ -23,13 +21,13 @@
 
 
 html {
-	font-family:"Lusida Sns", sans-serif;
+	font-family:sans-serif;
 }
 
 
 body {
 	font-family:arial, helvetica, sans-serif;
-	margine:0;
+	margin:0;
 }
 
 .header {
@@ -159,8 +157,150 @@ body {
 }	
 
 
+.wmap {
+	padding:50px;
+	text-align:center;
+}
+
+	
+/*.pic10container {
+	display:none;
+}
+*/
+
+.prev, .next {
+	cursor:pointer;
+	position:absolute;
+	color:blue;
+	font-weight:bold;
+	width:auto;
+	transition:0.6s ease;
+	font-size:30px;
+	padding:16px;
+	user-select:none;
+	
+
+}
+
+.next {
+	right:0;
+}
+
+.prev:hover, .next:hover {
+  	background-color:gray;
+  	}
+
+.ten {
+	text-align:center;
+	padding:10px;
+}
+
+.spotlight{
+	flex:100%;
+	
+	padding:50px;
+	
+	
+}
+.spotlightimg {
+	
+	padding-top:50px;
+
+	
+}
+
+.spotlightlogo {
+	background-color: #0066CC;
+	width: 120px;
+	color: white;
+	font-size: 30px;
+}
+
+
+.footer {
+	background-color: #333333;
+	padding: 20px;
+	color: white;
+}
+.columnthreecontainer {
+padding:10px;
+
+
+	
+	
+	
+
+	
+}
+
+.columnthree {
+	position:relative;
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+	overflow:visible;
+	margin:10px;
+	
+
+	
+	
+	
+	
+}
+
+.imagetext{
+	position:absolute;
+	top:60px;
+	left:10px;
+	right:10px;
+	
+	
+}
+
+.footer {
+	overflow: hidden;
+	background-color: #333333;
+	padding: 20px 10px;
+}
+
+
+.footer a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-left2 {
+
+	background-color:#333333;
+	
+	color:white;
+	
+}  
+  
+.footer-right2 {
+
+	float:right;
+}
+
+.footerend {
+	background-color:#333333;
+	color:white;
+}
+
+
 [class*="col-"] {
 	width:100%;
+	
 }
 
 
@@ -174,7 +314,7 @@ body {
 	.col-s-7{width:58.33%;}
 	.col-s-8{width:66.66%;}
 	.col-s-9{width:75%;}
-	.col-s-10{width:83%;}
+	.col-s-10{width:83.33%;}
 	.col-s-11{width:91.66%;}
 	.col-s-12{width:100%;}
 
@@ -331,6 +471,153 @@ the first 3 phases were defined by gartner. We have added the 4th phase (protect
 <img src="image\p8.jpg" width="500" height="200"/>
 </div>
 
+
+
+<div class="col-12 col-s-12 ">
+<div class="wmap">
+<h1>our reach</h1>
+<h3>USA | UK | AUSTRALIA | NEW ZEALAND | INDIA</h3>
+</div>
+<div class="wmap">
+<img src="image\new.png">
+</div>
+</div>
+
+<div class="pic10container">
+<div class="col-3 clo-s-3 ten"><img src="image\CIS-World-wide-logo-150x150.jpg"></div>
+<div class="col-2 col-s-5 ten"><img src="image\electrolux-LOGO-150x150.jpg"></div>
+<div class="col-2 col-s-7 ten"><img src="image\herohomes-LOGO-150x150.jpg"></div>
+
+<div class="col-2 col-s-9 ten"><img src="image\Housr-LOGO-Recovered-150x150.jpg"></div>
+
+<div class="col-2 col-s-12 ten"><img src="image\HSIL-150x150.jpg"></div>
+<div class="col-2 col-s-3 ten"><img src="image\in-cred-financeLOGO-Recovered-150x150.jpg"></div>
+<div class="col-2 col-s-5 ten"><img src="image\INSPIRED-BY-SCIENCE-LOGO-150x150.jpg"></div>
+
+<div class="col-2 col-s-7 ten"><img src="image\JK-TYRE-LOGO-150x150.jpg"></div>
+<div class="col-2 col-s-9 ten"><img src="image\MARKETS-AND-MARKETS-LOGO-150x150.jpg"></div>
+<div class="col-2 col-s-12 ten"><img src="image\MNL-UNIVERSITY-LOGO-150x150.jpg"></div>
+<div class="col-2 col-s-3 ten"><img src="image\flash.png"></div>
+<div class="col-2 col-s-5 ten"><img src="image\puravankara-LOGO-150x150.jpg"></div>
+<div class="col-2 col-s-7 ten"><img src="image\santana-logo-1-1.jpg"></div>
+
+<a class="prev" onclick="plusSlide(-1)">&#10094</a>
+
+<a class="next" onclick="plusSlide(1)">&#10095</a>
+</div>
+
+
+
+<script>
+var slideIndex=1;
+showSlides(slidIndex);
+
+function plusSlide(n){
+showSlides(slidIndex += n);
+}
+
+function showSlides(n){
+var i;
+var slides=document.getElementsByClassName("pic10container");
+if (n<1){slideIndex=slides.lenth}
+for(i=0; i<slides.length;i++){
+slides[i].style.display="none"
+
+
+</script>
+
+<div class="col-1 col-s-12 spotlight" style="background-color:#F1F1F1">
+<div class="spotlightlogo">spotlight</div>
+<div class="spotlightimg"><img src="image\p8.jpg"></div>
+</div>
+
+
+<div class=" columnthreecontainer">
+<div class="col-3 col-s-3 columnthree"><img src="image\nature.jpg">
+<div class="imagetext">Enable smart growth: Connect to and enhance revenue from new sources using intelligent centralized systems</div>
+</div>
+
+
+<div class="col-3 col-s-6 columnthree"><img src="image\nature.jpg">
+<div class="imagetext">Combining technology and behavioral models to address customer complaints </div>
+</div>
+
+<div class="col-3 col-s-9 columnthree"><img src="image\nature.jpg">
+<div class="imagetext">Re-engineer Processes to Drive Improvements in NPS and Sales </div>
+</div>
+
+<div class="col-3 col-s-12 columnthree"><img src="image\nature.jpg">
+<div class="imagetext">Cloud based order management systems can help address transparency issues </div>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<div class="footer">
+
+
+  <a href="sjkf" class="logo"><h1><img src="image\logo.png" width="250" height="80"/></h1></a>
+  <div class="footer-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">About Us</a>
+    <a href="#about">Enterprise</a>
+     <a href="#about">SMB</a>
+	 <a href="#about">Insights</a>
+	 <a href="#about">Opportunities</a>
+
+  </div>
+    </div>
+
+
+
+
+ 
+<div class="footer-left2">Customer Relationship Management 
+Small And Medium Enterprises 
+
+We help our clients maximise Customer Lifecycle Value through the design & deployment of superior customer experiences that lower acquisitions costs, improve retention & create true customer loyalty
+
+
+ <div class="footer-right2">
+smart.solutions@worxpertise.com
+                                                            
++1 315 203 9876
+ 
++91 124 685 9200
+
+</div>
+</div>
+
+<div class="footerend">
+<br><br>
+<h4 style="text-align:center; color:#3399FF" >Customer Lifecycle Value</h4><br>
+
+Customers are the bedrock for any business.<br><br>
+
+A strong relationship between customer and company is built over time. Several factors contributing to strengthening of relationship with customers include quality of product or service, efficient supply chain & business operations processes management, effective customer management approach resolving every customer query.
+<br><br>
+Strong relationship with customers contributes to longer association and increased customer retention and higher Customer Lifetime Value (CLV).
+<br><br>
+
+Customer Lifetime Value (CLV) can be considered the value which a customer contributes to a business over their period of engagement with the brand – beginning with a customer’s first purchase and finally finishing with what is referred to as the ‘churn.’
+<br><br>
+While most businesses spend millions of dollars through marketing initiatives to attract new customers, they spend just a fraction on managing their existing customer.
+<br><br>
+Success rate of selling to existing customer is 60% to 70% whereas selling to a new customer is between 5 to 20%
+<br><br>
+Designing the right Customer Relationship Management (CRM) process and using the right applications and software for business you can enable customer retention which means higher CLV. The advantages of utilizing Customer Lifetime Value as a focus includes delivering better customer relationships.
+<br><br>
+Consumers who continually return to your brand will eventually spend more with you and will generate more revenue for you. Satisfied customers also help grow your business by recommending your brand to their friends & family.
+<br><br>
+Experts say that word of mouth is the strongest advertising for any company. When you build a great customer experience, customers will tell each other about that. Word of mouth is very powerful
+<br><br>
+worxpertise works with you to deliver great customer experience & supports expanding your brand promoter community. 
+<h5 style="text-align:center">© 2019 WORXPERTISE. </h5>
+ 
 </div>
 
 
